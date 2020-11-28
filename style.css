@@ -1,0 +1,36 @@
+.mypic {
+   height: 250px; 
+   width: 190px;
+   float: left;
+   margin: 20px;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: initial;
+    margin: 20px;
+}
+p {
+    text-align: justify;
+}
+
+.navbar {
+    font-size: larger;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+.nav-link {
+    color: #5b5555!important;
+    }
+.nav-link.active,
+.nav-link:hover {
+        color: #4981b3!important;
+        }
+
+.surrounding {
+    background-color: lightgoldenrodyellow;
+    
+}
+
