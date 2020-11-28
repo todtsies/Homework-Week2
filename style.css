@@ -5,7 +5,12 @@
    margin: 20px;
 
 }
-
+body {
+    background-image: url(my-cool-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 h1 {
     text-align: center;
@@ -30,9 +35,9 @@ p {
         }
 
 .surrounding {
-    background-color: rgb(179, 220, 245);
+    background-color: rgb(142, 172, 190);
     margin: 20px;
-    padding: 15px;
+    padding:
 }
 
 .mb-4 {
