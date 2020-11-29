@@ -1,78 +1,82 @@
+/* Applies to index.html */
 .mypic {
-   height: 250px; 
-   width: 190px;
-   float: left;
-   margin: 20px;
+  height: 250px;
+  width: 190px;
+  float: left;
+  margin: 20px;
+  border: black solid 5px;
 }
-
+/* Applies to all 3 pages */
 body {
-    background-image: url(img/my-cool-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(img/my-cool-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
+/* Applies to all 3 pages */
 .my-name {
-    font-size: 30px;
-    background-color: rgb(154, 164, 175);
+  font-size: 30px;
+  background-color: rgb(154, 164, 175);
 }
-
+/* Applies to all 3 pages */
 h1 {
-    text-align: center;
-    font-weight: initial;
-    margin: 20px;
+  text-align: center;
+  font-weight: initial;
+  margin: 20px;
 }
-
+/* Applies to index.html */
 p {
-    text-align: justify;
+  text-align: justify;
 }
-
+/* Applies to all 3 pages */
 .navbar {
-    font-size: larger;
-    letter-spacing: .1rem;
-    font-weight: 600;
+  font-size: larger;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
 }
+/* Applies to all 3 pages */
 .nav-link {
-    color: #5b5555!important;
+  color: #5b5555 !important;
 }
-
+/* Applies to all 3 pages */
 .nav-link.active,
 .nav-link:hover {
-        color: #4981b3!important;
+  color: #4981b3 !important;
 }
-
+/* Applies to all 3 pages */
 .surrounding {
-    background-color: rgb(142, 172, 190);
-    margin: 20px;
-    padding: 30px;
+  background-color: rgb(142, 172, 190);
+  margin: 20px;
+  padding: 30px;
 }
-
+/* Applies to contact.html */
 .btn {
-    background-color: rgb(157, 165, 175);
-    border: none;
+  background-color: rgb(10, 10, 10);
+  border: none;
 }
-
+/* Applies to index.html */
 .myphoto {
-    height: 250px;
-    width: 200px;
-    margin: 5px 15px 5px 5px;
-    border: 5px solid #000000
+  height: 250px;
+  width: 200px;
+  margin: 5px 15px 5px 5px;
+  border: 5px solid #000000;
 }
+/* Applies to portfolio.html */
 .myphoto1 {
-    width: 250px;
-    margin: 5px 15px 5px 5px;
-    border: 5px solid #000000
+  width: 250px;
+  margin: 5px 15px 5px 5px;
+  border: 5px solid #000000;
 }
-
+/* Applies to portfolio.html */
 .container1 {
-    text-align: center;
+  text-align: center;
 }
-
+/* Applies to all 3 pages */
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    background-color:  rgb(154, 164, 175);
-    margin-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(154, 164, 175);
+  margin-top: 15px;
 }
